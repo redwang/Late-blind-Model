@@ -34,4 +34,4 @@ The generated images can be found in  `gen_mnist/`. Note that, the visual model 
 
 
 ## Imagined visual objects by 'hearing' 
-<img src='ims/lbm_examples.JPG'>
+<img src='ims/lbm_examples.jpg'>
