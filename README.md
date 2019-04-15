@@ -1,6 +1,6 @@
 # Listen to the Image
 
-This repository provides a kind of congenitally-blind model, implemented in Keras with tensorflow backend.
+This repository provides a kind of late-blind model, implemented in pytorch.
 For more details about this model, please see our paper [Listen to the Image](http://dtaoo.github.io/papers/2019_voice.pdf) by Di Hu, Dong Wang et al, CVPR 2019.
 
 ## The Late-Blind Model:
