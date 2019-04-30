@@ -86,17 +86,3 @@ class MyModel(nn.Module):
             if name in weights_name and 'vggish' in name:
                 # print name
                 param.data = torch.from_numpy(weights[name])
-
-
-
-if __name__ == '__main__':
-    model = MyModel(weights_path='./save_models/vggish_weights.npz')
-
-    # for name, param in model.named_parameters():
-    #     if param.requires_grad:
-    #         print name
-
-    # own_state = model.state_dict()
-    # var_names = own_state.keys()
-    # for i in range(len(var_names) - 2):
-    #     print(var_names[i], own_state[var_names[i]].size())
