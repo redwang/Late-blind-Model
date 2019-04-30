@@ -14,7 +14,7 @@ Taking the handwritten digits perception as an example.
 
 ### Step one: 
 
--For obtaining meaningful representation of translated sound, we firstly model the translated sound via a classification task (MNIST dataset), then using the extracted embeddings as the conditional input to cross-modal generation. To start this, just do
+For obtaining meaningful representation of translated sound, we firstly model the translated sound via a classification task (MNIST dataset), then using the extracted embeddings as the conditional input to cross-modal generation. To start this, just do
 
 ```bash
 $ python train_vggish.py
